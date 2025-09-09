@@ -124,6 +124,7 @@ exports.deleteTour = catchAsync(async (req, res, next) => {
 
   res.status(200).json({
     success: true,
+    message: 'The tour has been deleted confirmed because we give you permission abi? lol',
     data: {
       tour: null,
     },
